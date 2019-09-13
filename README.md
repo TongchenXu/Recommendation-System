@@ -1,5 +1,5 @@
 # Movie Recommendation System
-This project use the MovieLens dataset to build a movie recommender using collaborative filtering with Spark's Alternating Least Saqures implementation. 
+This project use the MovieLens dataset to build a movie recommender using collaborative filtering with Spark's Alternating Least Saqures implementation. It also built a RESTful API around a Spark recommendation engine using Flask micro-framework, associated the API to a production web server using CherryPy framework, achieved personalized recommendations for multiple web applications.
 ## 1.1 Getting and processing the data
 Loading and parsing the dataset. Persisting the resulting RDD for later use. Building the recommender model using the complete dataset. Persist the dataset for later use.
 ## 2  Colleborative Filtering
